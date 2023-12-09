@@ -1,5 +1,34 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1 {
+    background-color: antiquewhite;
+    padding: 16px;
+    font-size: 3rem;
+    text-align:center;
+}
+
+h2 {
+    background-color: powderblue;
+    padding: 8px;
+}
+
+p {
+    padding: 16px;
+}
+
+.link-photo {
+    width: 10%;
+    height:auto; 
+}
+    
+.main-links {
+  list-style-type: none;
+  font-size: 2rem; 
 }
 
 .food-photo {
@@ -10,25 +39,22 @@
     height: auto;
 }
 
-h1 {
-    background-color: antiquewhite;
-    text-align: center;
-    font-size: 3rem;
-}
-
-li a {
-    font-size: 1.5rem;
-}
-
-li > .link-photo {
-    width: 10%;
-    height:auto; 
-}
-    
-.main-links {
-  list-style-type: none;  
-}
-
 .description {
+/*     padding-bottom: 18px; */
     background-color: #cbdbd8;
+}
+
+.ingredients {
+    background-color: #eecfe7f6;
+}
+
+.ingredients-list,
+.steps-list {
+    padding: 18px 48px;
+    font-size: 1rem;
+}
+
+
+.steps {
+    background-color: palegoldenrod;
 }
