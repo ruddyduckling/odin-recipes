@@ -15,10 +15,16 @@ h1 {
 h2 {
     background-color: powderblue;
     padding: 8px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 p {
     padding: 16px;
+}
+
+.ingredient-item {
+    font-weight: bold;
 }
 
 .link-photo {
