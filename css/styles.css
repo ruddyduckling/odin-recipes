@@ -1,0 +1,34 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.food-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 3rem;
+}
+
+li a {
+    font-size: 1.5rem;
+}
+
+li > .link-photo {
+    width: 10%;
+    height:auto; 
+}
+    
+.main-links {
+  list-style-type: none;  
+}
+
+.description {
+    background-color: #cbdbd8;
+}
